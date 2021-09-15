@@ -1,9 +1,9 @@
 package com.jcl.catalog.services.exceptions;
 
-public class EntityNotFoundException extends RuntimeException {
+public class DataBaseException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 
-	public EntityNotFoundException(String message) {
+	public DataBaseException(String message) {
 		super(message);
 	}
 	
