@@ -1,8 +1,9 @@
+import AdminNavBar from "./components/AdminNavBar";
 
 const Admin = () => {
     return (
         <div>
-            <h1>Painel Admin</h1>
+            <AdminNavBar />
         </div>
     )
 }

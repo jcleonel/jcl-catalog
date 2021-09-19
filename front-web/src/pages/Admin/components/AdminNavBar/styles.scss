@@ -1,0 +1,14 @@
+.admin-nav-container {
+    width: 300px;
+    background-color: #FFF;
+    height: calc(100vh - 70px);
+}
+
+.admin-nav-item {
+    height: 80px;
+    display: block;
+    border-bottom: 1px solid #E1E1E1;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
