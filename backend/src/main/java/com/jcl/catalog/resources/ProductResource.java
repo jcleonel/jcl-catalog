@@ -18,9 +18,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.jcl.catalog.dto.ProductDTO;
+import com.jcl.catalog.dto.UriDTO;
 import com.jcl.catalog.services.ProductService;
 
 @RestController
@@ -67,6 +69,12 @@ public class ProductResource {
 	public ResponseEntity<Void> delete(@PathVariable Long id) {
 		productService.delete(id);
 		return ResponseEntity.noContent().build();
+	}
+	
+	@PostMapping("/image")
+	public ResponseEntity<UriDTO> uploadImage(@RequestParam("file") MultipartFile file) {
+		UriDTO dto = productService.uploadFile(file);
+		return ResponseEntity.ok().body(dto);
 	}
 	
 }
