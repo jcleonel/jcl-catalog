@@ -1,4 +1,4 @@
-package com.jcl.catalog.entites;
+package com.jcl.catalog.entities;
 
 import java.io.Serializable;
 import java.time.Instant;

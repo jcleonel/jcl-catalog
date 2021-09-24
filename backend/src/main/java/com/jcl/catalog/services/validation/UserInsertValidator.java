@@ -9,7 +9,7 @@ import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.jcl.catalog.dto.UserInsertDTO;
-import com.jcl.catalog.entites.User;
+import com.jcl.catalog.entities.User;
 import com.jcl.catalog.repositories.UserRepository;
 import com.jcl.catalog.resources.exceptions.FieldMessage;
 

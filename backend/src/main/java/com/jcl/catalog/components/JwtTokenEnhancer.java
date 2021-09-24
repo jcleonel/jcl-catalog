@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.stereotype.Component;
 
-import com.jcl.catalog.entites.User;
+import com.jcl.catalog.entities.User;
 import com.jcl.catalog.repositories.UserRepository;
 
 @Component

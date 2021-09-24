@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.jcl.catalog.dto.CategoryDTO;
-import com.jcl.catalog.entites.Category;
+import com.jcl.catalog.entities.Category;
 import com.jcl.catalog.repositories.CategoryRepository;
 import com.jcl.catalog.services.exceptions.DataBaseException;
 import com.jcl.catalog.services.exceptions.ResourceNotFoundException;

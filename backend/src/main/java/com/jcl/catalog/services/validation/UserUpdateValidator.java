@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 
 import com.jcl.catalog.dto.UserUpdateDTO;
-import com.jcl.catalog.entites.User;
+import com.jcl.catalog.entities.User;
 import com.jcl.catalog.repositories.UserRepository;
 import com.jcl.catalog.resources.exceptions.FieldMessage;
 

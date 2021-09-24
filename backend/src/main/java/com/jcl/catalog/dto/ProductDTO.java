@@ -11,8 +11,8 @@ import javax.validation.constraints.PastOrPresent;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 
-import com.jcl.catalog.entites.Category;
-import com.jcl.catalog.entites.Product;
+import com.jcl.catalog.entities.Category;
+import com.jcl.catalog.entities.Product;
 
 public class ProductDTO implements Serializable {
 	private static final long serialVersionUID = 1L;

@@ -2,7 +2,7 @@ package com.jcl.catalog.dto;
 
 import java.io.Serializable;
 
-import com.jcl.catalog.entites.Category;
+import com.jcl.catalog.entities.Category;
 
 public class CategoryDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
